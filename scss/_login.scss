@@ -1,0 +1,69 @@
+/*=============================MAIN-INICIAR-SESION */
+.login__container{
+    margin-top: 1px;
+}
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    padding: 3px;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 18px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: gray;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: cadetblue;
+}
+

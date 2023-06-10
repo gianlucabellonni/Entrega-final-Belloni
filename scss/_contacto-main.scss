@@ -1,0 +1,70 @@
+// ======================== CONTACTO-MAIN
+.body__form{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container__form{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info__form{
+    width: 600px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.forms__container{
+    width: 600px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.container__form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container__form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container__form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container__form a i{
+    color: black;
+    margin-right: 10px;
+}
+.container__form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+    width: 400px;
+}
+.container__form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    margin-bottom: 2rem;
+}
+.container__form .btn-enviar:hover{
+    background: grey;
+}
